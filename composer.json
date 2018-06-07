@@ -1,0 +1,19 @@
+{
+    "name": "bemang/csrf-middleware",
+    "description": "middleware protection csrf compatible psr15",
+    "type": "library",
+    "license": "GPL-3.0-only / GPL-3.0-or-later",
+    "minimum-stability": "dev",
+    "require": {
+        "psr/http-server-middleware": "^1.0@dev",
+        "bemang/session-system": "1.*.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "bemang\\csrf\\": "src"
+        }
+    },
+    "suggest": {
+        "phpunit/phpunit": "^6.5"
+    }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+
+<ruleset name="phpgone">
+    <arg name="colors"/>
+    <file>./tests</file>
+    <file>./src/</file>
+
+    <rule ref="PSR2"></rule>
+</ruleset>
